@@ -1,0 +1,91 @@
+/* Include the padding and border in an element's total width and height */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f44336;
+}
+
+.formConta {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+
+.formConta form {
+  padding: 10px 30px;
+  background-color: aquamarine;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.formConta form input {
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  outline: none;
+}
+
+.formConta form button {
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: greenyellow;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.formConta li {
+  list-style: none;
+  background: plum;
+  padding: 10px 10px;
+  border-radius: 10px;
+  width: 280px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.formConta li .iconBox {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.formConta ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.formConta li .fa-solid {
+  cursor: pointer;
+}
+
+.formConta li .fa-pen {
+  color: yellow;
+}
+
+.formConta li .fa-check {
+  color: green;
+}
+
+.formConta li .fa-trash {
+  color: red;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
